@@ -1,9 +1,9 @@
 #!/bin/sh
 
-# Script to upgrade/install the arc-geeko-theme
+# Script to upgrade/install the geeko-theme
 
 #URL
-theme_name=arc-geeko-theme
+theme_name=geeko-theme
 
 # Theme name
 download_url=https://github.com/horst3180/$theme_name/archive/master.tar.gz
@@ -15,17 +15,17 @@ download_url=https://github.com/horst3180/$theme_name/archive/master.tar.gz
 tempdir=/tmp/$theme_name
 
 # Directories
-lightdir=/usr/share/themes/Arc-Geeko
-darkerdir=/usr/share/themes/Arc-Geeko-Darker
-darkdir=/usr/share/themes/Arc-Geeko-Dark
+lightdir=/usr/share/themes/Geeko
+darkerdir=/usr/share/themes/Geeko-Darker
+darkdir=/usr/share/themes/Geeko-Dark
 
-userlightdir=$HOME/.themes/Arc-Geeko
-userdarkerdir=$HOME/.themes/Arc-Geeko-Darker
-userdarkdir=$HOME/.themes/Arc-Geeko-Dark
+userlightdir=$HOME/.themes/Geeko
+userdarkerdir=$HOME/.themes/Geeko-Darker
+userdarkdir=$HOME/.themes/Geeko-Dark
 
-userlightdir2=$HOME/local/share/themes/Arc-Geeko
-userdarkerdir2=$HOME/local/share/themes/Arc-Geeko-Darker
-userdarkdir2=$HOME/local/share/themes/Arc-Geeko-Dark
+userlightdir2=$HOME/local/share/themes/Geeko
+userdarkerdir2=$HOME/local/share/themes/Geeko-Darker
+userdarkdir2=$HOME/local/share/themes/Geeko-Dark
 
 #Functions
 show_error() {
@@ -99,7 +99,7 @@ install_theme() {
       case $response in
         [yY][eE][sS]|[yY])
           echo "Installing $(basename $0) on /usr/bin/"
-          cp -r arc-geeko-theme-upgrade /usr/bin/
+          cp -r geeko-theme-upgrade /usr/bin/
           ;;
         *)
           echo "Aborted by user"
@@ -122,7 +122,7 @@ install_theme() {
 # Main part
 clear
 echo '##########################################'
-echo '#     Arc Geeko Theme Install Script     #'
+echo '#     Geeko Theme Install Script     #'
 echo '##########################################'
 echo
 

@@ -1,20 +1,20 @@
-# Arc Geeko Theme
+# Geeko Theme
 
-Arc Geeko is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+Geeko is a flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
 
-## Arc Geeko is available in three variants 
+## Geeko is available in three variants 
 
-##### Arc Geeko
+##### Geeko
 
-![A screenshot of the Arc-Geeko theme](/additions/screenshots/light.png)
+![A screenshot of the Geeko theme](/additions/screenshots/light.png)
 
-##### Arc-Geeko-Darker
+##### Geeko-Darker
 
-![A screenshot of the Arc-Geeko-Darker theme](/additions/screenshots/darker.png)
+![A screenshot of the Geeko-Darker theme](/additions/screenshots/darker.png)
 
-##### Arc-Geeko-Dark
+##### Geeko-Dark
 
-![A screenshot of the Arc-Geeko-Dark theme](/additions/screenshots/dark.png)
+![A screenshot of the Geeko-Dark theme](/additions/screenshots/dark.png)
 
 ## Installation
 
@@ -45,7 +45,7 @@ Install the theme with the following commands
 
 Clone the git repository with
 
-    git clone https://github.com/LelCP/geeko-theme --depth 1 && cd arc-geeko-theme
+    git clone https://github.com/LelCP/geeko-theme --depth 1 && cd geeko-theme
 
 #### 2. Build and install the theme
 
@@ -55,9 +55,9 @@ Clone the git repository with
 Other options to pass to autogen.sh are
 
     --disable-transparency     disable transparency in the GTK3 theme
-    --disable-light            disable Arc Geeko Light support
-    --disable-darker           disable Arc Geeko Darker support
-    --disable-dark             disable Arc Geeko Dark support
+    --disable-light            disable Geeko Light support
+    --disable-darker           disable Geeko Darker support
+    --disable-dark             disable Geeko Dark support
     --disable-cinnamon         disable Cinnamon support
     --disable-gnome-shell      disable GNOME Shell support
     --disable-gtk2             disable GTK2 support
@@ -72,9 +72,9 @@ Other options to pass to autogen.sh are
                                Note 2: For GNOME 3.24, use --with-gnome-version=3.22
                                (this works for now, the build system will be improved in the future)
 
-After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `Arc-Geeko`, `Arc-Geeko-Darker` or `Arc-Geeko-Dark` as Window/GTK+ theme and `Arc-Geeko` or `Arc-Geeko-Dark` as GNOME Shell/Cinnamon theme.
+After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `Geeko`, `Geeko-Darker` or `Geeko-Dark` as Window/GTK+ theme and `Geeko` or `Geeko-Dark` as GNOME Shell/Cinnamon theme.
 
-If the `--disable-transparency` option was used, the theme will be installed as `Arc-Geeko-solid`, `Arc-Geeko-Darker-solid` and `Arc-Geeko-Dark-solid`.
+If the `--disable-transparency` option was used, the theme will be installed as `Geeko-solid`, `Geeko-Darker-solid` and `Geeko-Dark-solid`.
 
 ## Uninstall
 
@@ -84,7 +84,7 @@ Run
 
 from the cloned git repository, or
 
-    sudo rm -rf /usr/share/themes/{Arc-Geeko,Arc-Geeko-Darker,Arc-Geeko-Dark}
+    sudo rm -rf /usr/share/themes/{Geeko,Geeko-Darker,Geeko-Dark}
 
 ## Extras
 
@@ -100,8 +100,8 @@ If you get artifacts like black or invisible backgrounds under Unity, disable ov
     gsettings set com.canonical.desktop.interface scrollbar-mode normal
 
 ## License
-Arc Geeko is available under the terms of the GPL-3.0.
+Geeko is available under the terms of the GPL-3.0.
 
 ## Full Preview
-![A full screenshot of the Arc Geeko theme](/additions/screenshots/main.png)
+![A full screenshot of the Geeko theme](/additions/screenshots/main.png)
 <sub>Screenshot Details: Icons: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | [Wallpaper](https://github.com/openSUSE/branding/tree/tumbleweed/raw-theme-drop) | [Font](https://github.com/adobe-fonts/source-sans-pro) </sub>

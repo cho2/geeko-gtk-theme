@@ -1,6 +1,6 @@
-# ARC_GEEKO_ENABLE(VARIABLE, FEATURE, HELP-NAME, DISABLE/ENABLE)
+# GEEKO_ENABLE(VARIABLE, FEATURE, HELP-NAME, DISABLE/ENABLE)
 # -----------------------------------------------------------
-AC_DEFUN([ARC_GEEKO_ENABLE], [
+AC_DEFUN([GEEKO_ENABLE], [
     AC_ARG_ENABLE(
         [$2],
         [AS_HELP_STRING(

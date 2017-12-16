@@ -1,6 +1,6 @@
-# ARC_GEEKO_GNOME()
+# GEEKO_GNOME()
 # ---------------
-AC_DEFUN([ARC_GEEKO_GNOME], [
+AC_DEFUN([GEEKO_GNOME], [
     GNOMEDIR="$srcdir/common/gtk-3.0"
     PKG_PROG_PKG_CONFIG()
     AC_ARG_WITH(

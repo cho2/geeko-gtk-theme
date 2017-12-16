@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Arc-Geeko-Darker
+Name=Geeko-Darker
 Comment=A flat theme with transparent elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Arc-Geeko-Darker
-MetacityTheme=Arc-Geeko-Darker
+GtkTheme=Geeko-Darker
+MetacityTheme=Geeko-Darker
 IconTheme=papirus
 CursorTheme=DMZ-Black
 ButtonLayout=menu:minimize,maximize,close

@@ -1,11 +1,11 @@
 if !ENABLE_TRANSPARENCY
-themedir        = $(datadir)/themes/Arc-Geeko-solid
-themedarkerdir  = $(datadir)/themes/Arc-Geeko-Darker-solid
-themedarkdir    = $(datadir)/themes/Arc-Geeko-Dark-solid
+themedir        = $(datadir)/themes/Geeko-solid
+themedarkerdir  = $(datadir)/themes/Geeko-Darker-solid
+themedarkdir    = $(datadir)/themes/Geeko-Dark-solid
 else
-themedir        = $(datadir)/themes/Arc-Geeko
-themedarkerdir  = $(datadir)/themes/Arc-Geeko-Darker
-themedarkdir    = $(datadir)/themes/Arc-Geeko-Dark
+themedir        = $(datadir)/themes/Geeko
+themedarkerdir  = $(datadir)/themes/Geeko-Darker
+themedarkdir    = $(datadir)/themes/Geeko-Dark
 endif
 
 ithemedir       = $(DESTDIR)$(themedir)
