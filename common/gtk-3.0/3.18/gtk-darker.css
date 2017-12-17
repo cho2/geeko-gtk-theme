@@ -955,9 +955,11 @@ GtkComboBox {
     .csd .titlebar:backdrop {
       background-color: rgba(36, 36, 36, 0.97); }
   .maximized .titlebar {
-    background-color: #3a3a3a; }
+    background-color: #3a3a3a;
+    box-shadow: none; }
     .maximized .titlebar:backdrop, .csd .maximized .titlebar:backdrop {
-      background-color: #444444; }
+      background-color: #444444;
+      box-shadow: none; }
 
 .titlebar .titlebar,
 .titlebar .titlebar:backdrop {

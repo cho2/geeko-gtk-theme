@@ -968,10 +968,12 @@ headerbar,
   .maximized headerbar,
   .maximized .titlebar:not(headerbar) {
     background-color: #eaeaea;
-    border-color: #dbdbdb; }
+    border-color: #dbdbdb;
+    box-shadow: none; }
     .maximized headerbar:backdrop,
     .maximized .titlebar:backdrop:not(headerbar) {
-      background-color: #f2f2f2; }
+      background-color: #f2f2f2;
+      box-shadow: none; }
   headerbar.default-decoration,
   .csd headerbar.default-decoration, headerbar.default-decoration:backdrop,
   .csd headerbar.default-decoration:backdrop,
