@@ -2,6 +2,10 @@
 
 Geeko is a modified version of [Arc Theme](https://github.com/horst3180/Arc-theme), flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
 
+## Why fork?
+
+I never agreed with overuse of blue tint in Arc, however I really love layout of whole theme (and overuse of blue affect your sleep). Basic philosphy behind was to implement openSUSE colours on neutral background like grey (greenish grey doesn't look good in my experience). I will let blue stay on Arch/Fedora/Solus ;)
+
 ## Geeko is available in three variants 
 
 ##### Geeko
@@ -30,13 +34,13 @@ To build the theme the follwing packages are required
 **Note:** For distributions which don't ship separate development packages, just the GTK 3 package is needed instead of the `-dev` packages.
 
 For the theme to function properly, install the following
-* GNOME Shell 3.14 - 3.24, GTK 3.14 - 3.22
+* GNOME Shell 3.14 - 3.26, GTK 3.14 - 3.22
 * The `gnome-themes-standard` package
 * The murrine engine. This has different names depending on the distro.
+  * `gtk2-engine-murrine` (openSUSE)
   * `gtk-engine-murrine` (Arch Linux)
   * `gtk2-engines-murrine` (Debian, Ubuntu, elementary OS)
   * `gtk-murrine-engine` (Fedora)
-  * `gtk2-engine-murrine` (openSUSE)
   * `gtk-engines-murrine` (Gentoo)
 
 Install the theme with the following commands
@@ -67,10 +71,6 @@ Other options to pass to autogen.sh are
     --disable-xfwm             disable XFWM support
 
     --with-gnome=<version>     build the theme for a specific GNOME version (3.14, 3.16, 3.18, 3.20, 3.22)
-                               Note 1: Normally the correct version is detected automatically and this
-                               option should not be needed.
-                               Note 2: For GNOME 3.24, use --with-gnome-version=3.22
-                               (this works for now, the build system will be improved in the future)
 
 After the installation is complete the theme can be activated with `gnome-tweak-tool` or a similar program by selecting `Geeko`, `Geeko-Darker` or `Geeko-Dark` as Window/GTK+ theme and `Geeko` or `Geeko-Dark` as GNOME Shell/Cinnamon theme.
 
@@ -85,19 +85,8 @@ Run
 from the cloned git repository, or
 
     sudo rm -rf /usr/share/themes/{Geeko,Geeko-Darker,Geeko-Dark}
-
-## Extras
-
-## Troubleshooting
-
-If you use Ubuntu with a newer GTK/GNOME version than the one included by default (i.e Ubuntu 14.04 with GTK 3.14 or Ubuntu 15.04 with GTK 3.16, etc.) the prebuilt packages won't work properly and the theme has to be installed manually as described above.
-This is also true for other distros with a different GTK/GNOME version than the one included by default
-
---
-
-If you get artifacts like black or invisible backgrounds under Unity, disable overlay scrollbars with
-
-    gsettings set com.canonical.desktop.interface scrollbar-mode normal
+        Please note that for solid themes you need to run
+    sudo rm -rf /usr/share/themes/{Geeko-solid,Geeko-Darker-solid,Geeko-Dark-solid}
 
 ## License
 Geeko is available under the terms of the GPL-3.0.
