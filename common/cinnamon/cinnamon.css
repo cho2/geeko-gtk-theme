@@ -131,7 +131,7 @@ stage {
   .menu #notification StEntry StIcon.capslock-warning,
   .popup-menu #notification StEntry StIcon.capslock-warning, #menu-search-entry StIcon.capslock-warning {
     icon-size: 16px;
-    warning-color: #96f235;
+    warning-color: #F27835;
     padding: 0 4px; }
 
 .notification StEntry {
@@ -862,7 +862,7 @@ StScrollBar {
   icon-size: 48px; }
 
 .mount-password-reask {
-  color: #96f235; }
+  color: #F27835; }
 
 .show-processes-dialog,
 .mount-question-dialog {
@@ -1124,8 +1124,8 @@ StScrollBar {
     padding-right: 0px; }
 
 .window-list-item-demands-attention {
-  background-gradient-start: #96f235;
-  background-gradient-end: #96f235; }
+  background-gradient-start: #F27835;
+  background-gradient-end: #F27835; }
 
 .sound-button {
   width: 22px;
