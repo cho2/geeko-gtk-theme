@@ -38,7 +38,7 @@
        id="selected_bg_color"
        osb:paint="solid">
       <stop
-         style="stop-color:#73ba25;stop-opacity:1;"
+         style="stop-color:#6da741;stop-opacity:1;"
          offset="0"
          id="stop5956" />
     </linearGradient>
@@ -2307,7 +2307,7 @@
              style="display:inline"
              transform="translate(58)">
             <path
-               style="fill:#73ba25;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="fill:#6da741;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                d="m 414,58 c -3.86599,0 -7,3.134007 -7,7 0,3.865993 3.13401,7 7,7 3.86599,0 7,-3.134007 7,-7 0,-3.865993 -3.13401,-7 -7,-7 z"
                transform="translate(962.00001,190.00002)"
                id="path4068-7-5-9-6-5-8-5"
@@ -4067,7 +4067,7 @@
              style="display:inline"
              transform="translate(58,0)">
             <path
-               style="fill:#73ba25;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               style="fill:#6da741;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
                d="m 414,58 c -3.86599,0 -7,3.134007 -7,7 0,3.865993 3.13401,7 7,7 3.86599,0 7,-3.134007 7,-7 0,-3.865993 -3.13401,-7 -7,-7 z"
                transform="translate(962.00001,190.00002)"
                id="path4068-7-5-9-6-5-8"

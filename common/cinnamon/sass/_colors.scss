@@ -8,7 +8,7 @@ $bg_color: if($variant =='light', #eeeeee, #494949);
 $fg_color: if($variant =='light', #6b6b6b, #e2e2e2);
 
 $selected_fg_color: #ffffff;
-$selected_bg_color: #73ba25;
+$selected_bg_color: #6da741;
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', darken($bg_color,9%), darken($bg_color,6%));
 
@@ -85,7 +85,7 @@ $header_button_border: if($darker == 'true' or $variant == 'dark', transparentiz
 // Close
 $wm_button_close_bg: if($variant == 'light' and $darker == 'false', #93cc57, #93cc57);
 $wm_button_close_hover_bg: if($variant == 'light' and $darker == 'false', #a8d677, #a8d677);
-$wm_button_close_active_bg: if($variant == 'light' and $darker == 'false', #73ba25, #7dbf37);
+$wm_button_close_active_bg: if($variant == 'light' and $darker == 'false', #6da741, #7dbf37);
 
 $wm_icon_close_bg: if($variant == 'light' and $darker == 'false',#f9f9f9 , #3a3a3a);
 
