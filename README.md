@@ -4,7 +4,7 @@ Geeko is a modified version of [Arc Theme](https://github.com/horst3180/Arc-them
 
 ## Why fork?
 
-I never agreed with overuse of blue tint in Arc, however I really love layout of whole theme (and overuse of blue affect your sleep). Basic philosphy behind was to implement openSUSE colours on neutral background like grey (greenish grey doesn't look good in my experience). I will let blue stay on Arch/Fedora/Solus ;)
+I never agreed with overuse of blue tint in Arc, however I really love layout of whole theme (and overuse of blue affects your sleep). Basic philosphy behind was to implement openSUSE colours on neutral background like grey (greenish grey doesn't look good in my experience). I will let blue stay on Arch/Fedora/Solus ;)
 
 ## Geeko is available in three variants 
 
