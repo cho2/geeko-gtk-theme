@@ -22,7 +22,7 @@ I never agreed with overuse of blue tint in Arc, however I really love layout of
 
 ## Installation
 
-###openSUSE
+### openSUSE
 
 `zypper in metatheme-geeko-commo`
 
