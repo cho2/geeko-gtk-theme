@@ -22,6 +22,10 @@ I never agreed with overuse of blue tint in Arc, however I really love layout of
 
 ## Installation
 
+### openSUSE
+
+`zypper in metatheme-geeko-commo`
+
 ### Manual Installation
 
 To build the theme the follwing packages are required 
