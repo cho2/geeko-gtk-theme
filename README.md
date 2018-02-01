@@ -1,6 +1,6 @@
 # Geeko Theme
 
-Geeko is a modified version of [Arc Theme](https://github.com/horst3180/Arc-theme), flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Unity, Budgie, Pantheon, Xfce, MATE, etc.
+Geeko is a modified version of [Arc Theme](https://github.com/horst3180/Arc-theme), flat theme with transparent elements for GTK 3, GTK 2 and GNOME Shell which supports GTK 3 and GTK 2 based desktop environments like GNOME, Budgie, Pantheon, Xfce, MATE, etc.
 
 ## Why fork?
 
@@ -24,7 +24,7 @@ I never agreed with overuse of blue tint in Arc, however I really love layout of
 
 ### openSUSE
 
-`zypper in metatheme-geeko-commo`
+`zypper in metatheme-geeko-common`
 
 ### Manual Installation
 
@@ -71,7 +71,6 @@ Other options to pass to autogen.sh are
     --disable-gtk2             disable GTK2 support
     --disable-gtk3             disable GTK3 support
     --disable-metacity         disable Metacity support
-    --disable-unity            disable Unity support
     --disable-xfwm             disable XFWM support
 
     --with-gnome=<version>     build the theme for a specific GNOME version (3.14, 3.16, 3.18, 3.20, 3.22)
@@ -97,4 +96,4 @@ Geeko is available under the terms of the GPL-3.0.
 
 ## Full Preview
 ![A full screenshot of the Geeko theme](/additions/screenshots/main.png)
-<sub>Screenshot Details: Icons: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) | [Wallpaper](https://github.com/openSUSE/branding/tree/tumbleweed/raw-theme-drop) | [Font](https://github.com/adobe-fonts/source-sans-pro) </sub>
+<sub>Screenshot Details: Icons: [Papirus](https://github.com/LelCP/origami-icon-theme) | [Wallpaper](https://github.com/openSUSE/branding/tree/tumbleweed/raw-theme-drop) | [Font](https://github.com/adobe-fonts/source-sans-pro)</sub>

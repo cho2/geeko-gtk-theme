@@ -20,7 +20,6 @@ GEEKO_ENABLE([GNOME_SHELL],   [gnome-shell],   [GNOME Shell],   [disable])
 GEEKO_ENABLE([GTK2],          [gtk2],          [GTK2],          [disable])
 GEEKO_ENABLE([GTK3],          [gtk3],          [GTK3],          [disable])
 GEEKO_ENABLE([METACITY],      [metacity],      [Metacity],      [disable])
-GEEKO_ENABLE([UNITY],         [unity],         [Unity],         [disable])
 GEEKO_ENABLE([XFWM],          [xfwm],          [XFWM],          [disable])
 GEEKO_ENABLE([TRANSPARENCY],  [transparency],  [transparency],  [disable])
 
