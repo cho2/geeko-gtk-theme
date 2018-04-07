@@ -3514,7 +3514,7 @@ panel-toplevel.background na-tray-applet {
   -NaTrayApplet-icon-size: 16px; }
 
 .xfce4-panel.panel {
-  background-color: rgba(36, 36, 36, 0.95);
+  background-color: rgba(56, 56, 56, 0.95);
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
