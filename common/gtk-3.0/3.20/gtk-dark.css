@@ -3514,7 +3514,7 @@ panel-toplevel.background na-tray-applet {
   -NaTrayApplet-icon-size: 16px; }
 
 .xfce4-panel.panel {
-  background-color: rgba(73, 73, 73, 0.95);
+  background-color: rgba(56, 56, 56, 0.95);
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
@@ -4304,3 +4304,4 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color wm_icon_unfocused_bg #727272;
 @define-color wm_icon_hover_bg #cccccc;
 @define-color wm_icon_active_bg #ffffff;
+
