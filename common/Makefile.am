@@ -238,33 +238,6 @@ endif # ENABLE_DARK
 endif # ENABLE_METACITY
 
 
-if ENABLE_UNITY
-
-if ENABLE_LIGHT
-	cp -R $(srcdir)/unity $(ithemedir)
-
-	cd $(ithemedir)/unity && rm -rf window-buttons-dark
-endif # ENABLE_LIGHT
-
-if ENABLE_DARKER
-	cp -R $(srcdir)/unity $(ithemedarkerdir)
-
-	cd $(ithemedarkerdir)/unity && \
-	rm -rf window-buttons && \
-	mv window-buttons-dark window-buttons
-endif # ENABLE_DARKER
-
-if ENABLE_DARK
-	cp -R $(srcdir)/unity $(ithemedarkdir)
-
-	cd $(ithemedarkdir)/unity && \
-	rm -rf window-buttons && \
-	mv window-buttons-dark window-buttons
-endif # ENABLE_DARK
-
-endif # ENABLE_UNITY
-
-
 if ENABLE_XFWM
 
 if ENABLE_LIGHT
@@ -311,7 +284,6 @@ EXTRA_DIST = $(srcdir)/cinnamon \
 	     $(srcdir)/gtk-2.0 \
 	     $(srcdir)/gtk-3.0 \
 	     $(srcdir)/metacity-1 \
-	     $(srcdir)/unity \
 	     $(srcdir)/xfwm4 \
 	     $(srcdir)/index.theme \
 	     $(srcdir)/index.theme-darker \
